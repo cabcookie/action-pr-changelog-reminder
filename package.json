@@ -1,8 +1,8 @@
 {
-  "name": "typescript-action",
-  "version": "0.0.0",
+  "name": "action-pr-changelog-reminder",
+  "version": "0.1.0",
   "private": true,
-  "description": "TypeScript template action",
+  "description": "Action to remind you to write a changelog for your pull request",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
@@ -15,25 +15,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/typescript-action.git"
+    "url": "git+https://github.com/cabcookie/action-pr-changelog-reminder.git"
   },
   "keywords": [
     "actions",
+    "changelog",
     "node",
     "setup"
   ],
-  "author": "",
+  "author": "Carsten Koch",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.6.0"
   },
   "devDependencies": {
-    "@types/node": "^16.10.5",
+    "@types/node": "^16.11.56",
     "@typescript-eslint/parser": "^5.8.1",
     "@vercel/ncc": "^0.31.1",
-    "eslint": "^7.32.0",
-    "eslint-plugin-github": "^4.3.2",
-    "eslint-plugin-jest": "^25.3.2",
+    "eslint": "^8.23.0",
+    "eslint-plugin-github": "^4.3.7",
+    "eslint-plugin-jest": "^27.0.1",
     "jest": "^27.2.5",
     "js-yaml": "^4.1.0",
     "prettier": "2.5.1",
